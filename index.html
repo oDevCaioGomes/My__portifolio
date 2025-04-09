@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portifólio</title>
+  </head>
+
+  <body>
+    <nav class="navegacao">
+      <ul class="menu">
+        <li>
+          <a href="#inicio" class="menu__link">Inicio</a>
+        </li>
+
+        <li>
+          <a href="#sobre" class="menu__link">Sobre</a>
+        </li>
+
+        <li>
+          <a href="#projetos" class="menu__link">Projetos</a>
+        </li>
+
+        <li>
+          <a href="#contatos" class="menu__link">contatos</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="inicio" class="">
+      <div>
+        <img src="./assets/foto-caio.jpg" alt="foto-caio" />
+        <h1>Caio Gomes</h1>
+        <p>Desenvolvedor Front End</p>
+      </div>
+    </main>
+
+    <section id="sobre" class="sobre">
+      <h2 class="sobre__titulo">Sobre Mim</h2>
+
+      <div id="sobre">
+        <p>
+          Olá! Sou Desenvolvedor front-end com foco em criar interfaces
+          modernas, responsivas e funcionais.
+        </p>
+      </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+      <h2 class="projetos__titulos">Meus Projetos</h2>
+      <div class="projetos-caixa">
+        <div class="projetos__card">
+          <img src="./assets/Premium__Omega.png"site--cafeteria">
+          <h3 class="info__projetos">Premium Omega</h3>
+          <p class="paragrafo__projetos">
+            "Site de instalação de papel de parede desenvolvido com HTML, CSS e
+            JavaScript, com design limpo, seções bem estruturadas, interações
+            suaves e uma paleta de cores suaves que refletem sofisticação e
+            profissionalismo no serviço oferecido nos estados do Texas e da
+            Flórida.
+          </p>
+        </div>
+
+        <div>
+          <div class="projetos__card">
+            <img src="./assets/site--cafeteria.png" alt="site--cafeteria" />
+            <h3 class="info__projetos">Cafeteria</h3>
+            <p class="paragrafo__projetos">
+              Site de cafeteria desenvolvido com HTML e CSS, oferecendo um
+              layout responsivo, tipografia elegante e cores acolhedoras que
+              transmitem o clima aconchegante do café.
+            </p>
+          </div>
+        </div>
+
+        <div class="projetos__card">
+          <img src="./assets/frutas.png" alt="site--cafeteria" />
+          <h3 class="info__projetos">Frutas</h3>
+          <p class="paragrafo__projetos">
+            Site minimalista feito com HTML e CSS contendo apenas um slideshow
+            elegante que exibe latas de frutas variadas com transições suaves e
+            visual atraente.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos">Contatos</h2>
+        <form class="formulario-contato" id="formulario">
+            <div class="nome__form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+            <textarea placeholder="Digite sua mensagem"></textarea>
+        </form>
+    </section>
+  </body>
+</html>
