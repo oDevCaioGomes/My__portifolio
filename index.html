@@ -3,19 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>Portifólio</title>
   </head>
 
   <body>
-    <nav class="navegacao">
+    <nav class="nav">
       <ul class="menu">
         <li>
           <a href="#inicio" class="menu__link">Inicio</a>
         </li>
 
         <li>
-          <a href="#sobre" class="menu__link">Sobre</a>
+          <a href="#About" class="menu__link">About</a>
         </li>
 
         <li>
@@ -28,33 +28,39 @@
       </ul>
     </nav>
 
-    <main id="inicio" class="">
-      <div>
-        <img src="./assets/foto-caio.jpg" alt="foto-caio" />
-        <h1>Caio Gomes</h1>
-        <p>Desenvolvedor Front End</p>
-      </div>
+    <main id="inicio" class="header">
+      <img
+        src="./assets/foto-caio.jpg"
+        alt="foto-caio"
+        class="profile__picture"
+      />
+      <h1>Caio Gomes</h1>
+      <p class="header__subtitle">
+        Front-End Developer & Game Programmer — HTML, CSS, JavaScript & C#.
+      </p>
     </main>
 
-    <section id="sobre" class="sobre">
-      <h2 class="sobre__titulo">Sobre Mim</h2>
+    <section id="About" class="About">
+      <h2 class="About__titulo">Sobre Mim</h2>
 
-      <div id="sobre">
-        <p>
-          Olá! Sou Desenvolvedor front-end com foco em criar interfaces
-          modernas, responsivas e funcionais.
+      <div class="About__box">
+        <p class="About__paragraph">
+          Olá! Me chamo Caio Gomes e sou desenvolvedor Front-End e programador de jogos digitais.  
+          Trabalho com HTML, CSS, JavaScript e C# (Unity), criando interfaces modernas e experiências interativas.  
+          Estou sempre buscando evoluir e construir soluções criativas.
         </p>
+        
       </div>
     </section>
 
-    <section class="projetos" id="projetos">
-      <h2 class="projetos__titulos">Meus Projetos</h2>
-      <div class="projetos-caixa">
-        <div class="projetos__card">
-          <img src="./assets/Premium__Omega.png"site--cafeteria">
-          <h3 class="info__projetos">Premium Omega</h3>
-          <p class="paragrafo__projetos">
-            "Site de instalação de papel de parede desenvolvido com HTML, CSS e
+    <section class="projects" id="projects">
+      <h2 class="projects__title">Meus Projetos</h2>
+      <div class="projects__box">
+        <div class="projects__card">
+          <img src="./assets/Premium__Omega.png" alt="Premium__Omega" class="projects__img" />
+          <h3 class="info__projects">Premium Omega</h3>
+          <p class="paragraph__projects">
+            Site de instalação de papel de parede desenvolvido com HTML, CSS e
             JavaScript, com design limpo, seções bem estruturadas, interações
             suaves e uma paleta de cores suaves que refletem sofisticação e
             profissionalismo no serviço oferecido nos estados do Texas e da
@@ -63,10 +69,10 @@
         </div>
 
         <div>
-          <div class="projetos__card">
-            <img src="./assets/site--cafeteria.png" alt="site--cafeteria" />
-            <h3 class="info__projetos">Cafeteria</h3>
-            <p class="paragrafo__projetos">
+          <div class="projects__card">
+            <img src="./assets/site--cafeteria.png" alt="site--cafeteria" class="projects__img" />
+            <h3 class="info__projects">Cafeteria</h3>
+            <p class="paragraph__projects">
               Site de cafeteria desenvolvido com HTML e CSS, oferecendo um
               layout responsivo, tipografia elegante e cores acolhedoras que
               transmitem o clima aconchegante do café.
@@ -74,10 +80,10 @@
           </div>
         </div>
 
-        <div class="projetos__card">
-          <img src="./assets/frutas.png" alt="site--cafeteria" />
-          <h3 class="info__projetos">Frutas</h3>
-          <p class="paragrafo__projetos">
+        <div class="projects__card">
+          <img src="./assets/frutas.png" alt="site--cafeteria" class="projects__img" />
+          <h3 class="info__projects">Frutas</h3>
+          <p class="paragraph__projetos">
             Site minimalista feito com HTML e CSS contendo apenas um slideshow
             elegante que exibe latas de frutas variadas com transições suaves e
             visual atraente.
@@ -87,13 +93,13 @@
     </section>
 
     <section id="contatos" class="contatos">
-        <h2 class="contatos">Contatos</h2>
-        <form class="formulario-contato" id="formulario">
-            <div class="nome__form">
-                <input placeholder="Nome" class="campo-form">
-            </div>
-            <textarea placeholder="Digite sua mensagem"></textarea>
-        </form>
+      <h2 class="contatos">Contatos</h2>
+      <form class="formulario-contato" id="formulario">
+        <div class="nome__form">
+          <input placeholder="Nome" class="campo-form" />
+        </div>
+        <textarea placeholder="Digite sua mensagem"></textarea>
+      </form>
     </section>
   </body>
 </html>
