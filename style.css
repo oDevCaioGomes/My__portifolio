@@ -77,7 +77,10 @@ body {
     box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
     border-radius: 50%;
     border: 4px solid var(--vidro);	
+<<<<<<< HEAD
     animation: float 5s ease-in-out infinite;
+=======
+>>>>>>> e90c7c3c017dd3247ad61deb7231e7ea129802df
 }
 
 h1{
@@ -148,7 +151,11 @@ h1{
 .projects__title{
     text-align: center;
     font-size: 2.5rem;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+    margin-bottom: 30px;
+>>>>>>> e90c7c3c017dd3247ad61deb7231e7ea129802df
 }
 
 
@@ -159,6 +166,7 @@ h1{
     object-fit: cover;
 }
 
+<<<<<<< HEAD
 .text__box__projects{
     padding: 1.5rem;
 }
@@ -174,10 +182,14 @@ h1{
     -webkit-line-clamp: 4; /* Limita a 6 linhas, por exemplo */
     -webkit-box-orient: vertical;
     
+=======
+.paragraph__projects{
+>>>>>>> e90c7c3c017dd3247ad61deb7231e7ea129802df
 
 }
 
 .info__projects{
+<<<<<<< HEAD
     margin-bottom: 5px;
 }
 
@@ -247,4 +259,7 @@ h1{
     50%{
         transform: translateY(-20px);
     }
+=======
+
+>>>>>>> e90c7c3c017dd3247ad61deb7231e7ea129802df
 }
