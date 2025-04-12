@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Portifólio</title>
+</head>
+
+<body>
+  <nav class="nav">
+    <ul class="menu">
+      <li>
+        <a href="#inicio" class="menu__link">Inicio</a>
+      </li>
+
+      <li>
+        <a href="#About" class="menu__link">About</a>
+      </li>
+
+      <li>
+        <a href="#projects" class="menu__link">Projetos</a>
+      </li>
+
+      <li>
+        <a href="#contacts" class="menu__link">contacts</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="inicio" class="header">
+    <img src="./assets/foto-caio.jpg" alt="foto-caio" class="profile__picture" />
+    <h1>Caio Gomes</h1>
+    <p class="header__subtitle">
+      Front-End Developer & Game Programmer — HTML, CSS, JavaScript & C#.
+    </p>
+  </main>
+
+  <section id="About" class="About">
+    <h2 class="About__titulo">Sobre Mim</h2>
+
+    <div class="About__box">
+      <p class="About__paragraph">
+        Olá! Me chamo Caio Gomes e sou desenvolvedor Front-End e programador de jogos digitais.
+        Trabalho com HTML, CSS, JavaScript e C# (Unity), criando interfaces modernas e experiências interativas.
+        Estou sempre buscando evoluir e construir soluções criativas.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="projects__title">Meus Projetos</h2>
+    <div class="projects__box">
+      <div class="projects__card">
+
+        <img src="./assets/Premium__Omega.png" alt="Premium__Omega" class="projects__img" />
+        <div class="text__box__projects">
+          <h3 class="info__projects">Premium Omega</h3>
+          <p class="paragraph__projects">
+            Site de papel de parede desenvolvido com HTML, CSS e JavaScript, com design limpo, 
+            interações suaves e foco em sofisticação para serviços no Texas e Flórida.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="projects__card">
+          <img src="./assets/site--cafeteria.png" alt="site--cafeteria" class="projects__img" />
+          <div class="text__box__projects">
+            <h3 class="info__projects">Cafeteria</h3>
+            <p class="paragraph__projects">
+              Site de cafeteria desenvolvido com HTML e CSS, oferecendo um
+              layout responsivo, tipografia elegante e cores acolhedoras que
+              transmitem o clima aconchegante do café.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__card">
+        <img src="./assets/frutas.png" alt="site--cafeteria" class="projects__img" />
+        <div class="text__box__projects">
+          <h3 class="info__projects">Frutas</h3>
+          <p class="paragraph__projects">
+            Site minimalista feito com HTML e CSS contendo apenas um slideshow
+            elegante que exibe latas de frutas variadas com transições suaves e
+            visual atraente.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacts" class="contacts">
+    <h2 class="contacts__title">Contact me</h2>
+    
+    <form class="form__contact" id="form" onsubmit="sendWhatsapp(event)" >
+      <div class="group__form">
+        <input placeholder="name" class="form__field" id="name"/>
+      </div>
+      
+      <div class="group__form">
+        <textarea class = "form__field" placeholder="Digite sua mensagem" rows="6" id="message"></textarea>
+      </div>
+
+      <button type="submit" class="button__form">Send whatsapp</button>
+      </form>
+
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>
