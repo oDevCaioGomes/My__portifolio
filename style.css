@@ -19,17 +19,19 @@ html {
 }
 
 body {
-    background-color: var(--escuro);
+    background-color: black;
     color: var(--claro);
 }
 
 .nav{
     position: fixed;
     top: 0;
-    background: rgba(15, 23, 42, 0.8);
+    background: transparent;
     width: 100%;
     z-index: 100;
     padding: 1.5rem;
+    border: 1px solid;
+
 }
 
 .menu {
@@ -66,7 +68,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 85vh;
 }
 
 
@@ -84,17 +86,18 @@ body {
 h1{
     font-size: 3.5rem;
     font-weight: bold;
-    color: var(--primaria);
+    color: white;
     margin-top: 20px;
 }
 
 .header__subtitle{
     font-size: 1.5rem	;
     color: var(--claro);
+    text-align: center;
 }
 
 .About{
-    padding: 6rem 2rem;
+    padding: 2rem 2rem;
 }
 
 .About__titulo{
